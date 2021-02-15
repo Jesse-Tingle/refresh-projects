@@ -1,0 +1,95 @@
+/* Border box declaration 
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+    box-sizing: border-box;
+  }
+  /* inherit border-box on all elements in the universe and before and after
+   */
+  *, 
+  *:before, 
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+      font-family: Arial, Geneva, sans-serif;
+  }
+  a {
+      color: #2772B0;
+  }
+  .wrapper {
+      width: 97%;
+      max-width: 1200px;
+      margin: 0 auto;
+      float: none;
+      background-color: #fff;
+  }
+
+  div.row-one {
+      /* max-width: 100%; */
+      display: flex;
+  }
+
+  div.row-one article {
+      justify-content: space-between;
+      width: 40%;
+  }
+
+  div.row-two {
+    /* max-width: 100%; */
+    display: flex;
+}
+    div.row-two article {
+        justify-content: space-between;
+        width: 60%;
+    }
+
+    div.row-two article p{
+        width: 33em;
+    }
+
+div.row-three {
+    /* max-width: 100%; */
+    display: flex;
+}
+div.row-three article{
+    /* max-width: 100%; */
+    justify-content: space-between;
+    width: 25%;
+}
+
+div.row-three article.coconut p{
+    /* max-width: 100%; */
+    width: 40em;
+}
+
+div.row-four {
+    /* max-width: 100%; */
+    display: flex;
+}
+
+div.row-four article p {
+    /* max-width: 100%; */
+    width: 50em;
+}
+
+  div article p {
+      width: 15em;
+  }
+  
+  div img {
+      width: 100%;
+      max-width: 225px; 
+  }
+  
+  /* grid system -- mobile first! */
+  
+  
+  /* Mobile Landscape Screen Sizes */
+  @media only screen and (min-width: 480px)  {
+  
+  }
+  /* Desktop screen Sizes */
+  @media only screen and (min-width: 768px) {
+  
+  }
