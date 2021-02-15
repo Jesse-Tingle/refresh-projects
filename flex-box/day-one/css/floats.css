@@ -24,6 +24,58 @@ html {
       float: none;
       background-color: #fff;
   }
+
+  div.row-one {
+      /* max-width: 100%; */
+      display: flex;
+  }
+
+  div.row-one article {
+      justify-content: space-between;
+      width: 40%;
+  }
+
+  div.row-two {
+    /* max-width: 100%; */
+    display: flex;
+}
+    div.row-two article {
+        justify-content: space-between;
+        width: 60%;
+    }
+
+    div.row-two article p{
+        width: 33em;
+    }
+
+div.row-three {
+    /* max-width: 100%; */
+    display: flex;
+}
+div.row-three article{
+    /* max-width: 100%; */
+    justify-content: space-between;
+    width: 25%;
+}
+
+div.row-three article.coconut p{
+    /* max-width: 100%; */
+    width: 40em;
+}
+
+div.row-four {
+    /* max-width: 100%; */
+    display: flex;
+}
+
+div.row-four article p {
+    /* max-width: 100%; */
+    width: 50em;
+}
+
+  div article p {
+      width: 15em;
+  }
   
   div img {
       width: 100%;
